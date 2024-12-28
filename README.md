@@ -7,5 +7,5 @@ Mô hình OSI (Open Systems Interconnection): gồm 7 tầng từ cao(Applicatio
 3. **Session** (Tầng Phiên): Thiết lập, duy trì,  phục hồi và hủy phiên làm việc giữa hai máy tính. Máy A và máy B trao đổi dữ liệu trong một phiên giao tiếp.
 4. **Transport** (Tầng giao vận): Đóng gói dữ liệu thành tệp dữ liệu (segment). Sử dụng giao thức TCP hoặc UDP để quản lý.
 5. **Network** (Tầng Mạng): Dùng địa chỉ IP để xác định các máy trong mạng. Nhiệm vụ: Tìm các đường đi tối ưu và hiệu quả cho dữ liệu (Ex: A → 192.168.1.1 gửi dữ liệu đến máy B → 192.168.1.2). 
-6. **Data Link** (Tầng dữ liệu liên kết): Phân luồng dữ liệu qua các đường truyền mạng.
+6. **Data Link** (Tầng dữ liệu liên kết): Quản lý luồng dữ liệu, chia nhỏ thành các khung (frame) và phát hiện lỗi khi truyền.
 7. **Physical** (Tầng Vật lý): Xử lý việc truyền dữ liệu qua các tín hiệu vật lý (Ex: Cáp, sóng vô tuyến, USB)
